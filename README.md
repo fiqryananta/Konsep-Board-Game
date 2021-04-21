@@ -1,4 +1,4 @@
-# Konsep-Board-Game
+# Konsep-Board-Game-Kota-Semarang
 Tugas Kelompok 4 Mata Kuliah Proyek Perangkat Lunak (PPL) 4624 SC
 
 1. Muhammad Fiqry Ananta Jusna Saputra -  A11.2018.11178 | Penanggung Jawab Konsep
