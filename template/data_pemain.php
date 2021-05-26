@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Dolanan Admin</title>
+  <title>Dolanan Admin - Data Pemain</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -130,177 +130,107 @@
         <div class="content-wrapper">
           <div class="page-header">
             <h3 class="page-title">
-              Dashboard
+             Data Pemain
             </h3>
-          </div>
-          <div class="row grid-margin">
-            <div class="col-12">
-              <div class="card card-statistics">
-                <div class="card-body">
-                  <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
-                      <div class="statistics-item">
-                        <p>
-                          <i class="icon-sm fa fa-user mr-2"></i>
-                          Data Pemain
-                        </p>
-                        <h2>54000</h2>
-                        
-                      </div>
-                      <div class="statistics-item">
-                        <p>
-                          <i class="icon-sm fas fa-handshake mr-2"></i>
-                          Data Pertandingan
-                        </p>
-                        <h2>123.50</h2>
-                        
-                      </div>
-                      <div class="statistics-item">
-                        <p>
-                          <i class="icon-sm fas fa-gamepad mr-2"></i>
-                          Data Permainan
-                        </p>
-                        <h2>3500</h2>
-                        
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <i class="far fa-handshake"></i>
-                    Data Pertandingan Tahun 2021
-                  </h4>
-                  <canvas id="orders-chart"></canvas>
-                  <div id="orders-chart-legend" class="orders-chart-legend"></div>                  
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <i class="fas fa-chart-line"></i>
-                    Data Top Pemain
-                  </h4>
-                  <div class="table-responsive">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>Nama</th>
-                          <th>Perminan</th>
-                          <th>Jumlah Pertandingan</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Clifford Wilson
-                          </td>
-                          <td class="text-muted">
-                            Fast Fun Blokus
-                          </td>
-                          <td>
-                            300
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Mary Payne
-                          </td>
-                          <td class="text-muted">
-                            Wooden Latches Board
-                          </td>
-                          <td>
-                            280
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Adelaide Blake
-                          </td>
-                          <td class="text-muted">
-                            Splendor
-                          </td>
-                          <td>
-                            278
-                          </td>
-                         
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Adeline King
-                          </td>
-                          <td class="text-muted">
-                            Ticket to Ride
-                          </td>
-                          <td>
-                            250
-                          </td>
-                          
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Bertie Robbins
-                          </td>
-                          <td class="text-muted">
-                            7 Wonders Duel
-                          </td>
-                          <td>
-                            200
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body d-flex flex-column">
-                  <h4 class="card-title">
-                    <i class="fas fa-calendar"></i>
-                    Jadwal Pertandingan
-                  </h4>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h4 class="card-title">
+                                <i class="fas fa-list"></i>
+                                Daftar Data Pemain
+                            </h4>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-primary btn-fw ml-2"><i class="fa fa-plus"></i> Tambah Data</button>
+                        </div>
+                    </div>  
                   <div class="table-responsive">
                     <table class="table">
                       <thead>
                         <tr>
                           <th width="5px">No</th>
-                          <th>Tanggal</th>
-                          <th>Host</th>
-                          <th>Lokasi</th>
+                          <th>Nama Pemain</th>
+                          <th>Alamat</th>
                           <th>Status</th>
+                          <th>#</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <td>1</td>
-                          <td>2021-05-19</td>
                           <td>Einstin</td>
                           <td>Jl. Kawi 1, Wonotingal, Kec. Candisari, Kota Semarang, Jawa Tengah 50252</td>
-                          <th><label class="badge badge-success badge-pill">Sedang Berlangsung</label></th>
+                          <th><label class="badge badge-warning badge-pill">Tidak Aktif</label></th>
+                          <td>
+                            <button type="button" class="btn btn-danger btn-sm btn-icon">
+                                <i class="fa fa-trash btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm btn-icon">
+                                <i class="fa fa-edit btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-success btn-sm btn-icon">
+                                <i class="fa fa-eye btn-icon-prepend"></i>                                                    
+                               
+                            </button>
+                            <button type="button" class="btn btn-info btn-sm btn-icon">
+                                <i class="fa fa-redo btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                          </td>
                         </tr>
                         <tr>
                           <td>2</td>
-                          <td>2021-05-25</td>
                           <td>Meliodas</td>
                           <td>Jl. Rinjani No.1, Bendungan, Kec. Gajahmungkur, Kota Semarang, Jawa Tengah 50231</td>
-                          <td><label class="badge badge-info badge-pill">Akan Datang</label></td>
+                          <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                          <td>
+                            <button type="button" class="btn btn-danger btn-sm btn-icon">
+                                <i class="fa fa-trash btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm btn-icon">
+                                <i class="fa fa-edit btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-success btn-sm btn-icon">
+                                <i class="fa fa-eye btn-icon-prepend"></i>                                                    
+                               
+                            </button>
+                            <button type="button" class="btn btn-info btn-sm btn-icon">
+                                <i class="fa fa-redo btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                          </td>
                         </tr>
                         <tr>
                           <td>3</td>
-                          <td>2021-05-28</td>
                           <td>Novita</td>
                           <td>Jl. Sisingamangaraja No.21, Candi, Kec. Candisari, Kota Semarang, Jawa Tengah 50257</td>
-                          <td><label class="badge badge-info badge-pill">Akan Datang</label></td>
+                          <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                          <td>
+                            <button type="button" class="btn btn-danger btn-sm btn-icon">
+                                <i class="fa fa-trash btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-warning btn-sm btn-icon">
+                                <i class="fa fa-edit btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                            <button type="button" class="btn btn-success btn-sm btn-icon">
+                                <i class="fa fa-eye btn-icon-prepend"></i>                                                    
+                               
+                            </button>
+                            <button type="button" class="btn btn-info btn-sm btn-icon">
+                                <i class="fa fa-redo btn-icon-prepend"></i>                                                    
+                                
+                            </button>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
