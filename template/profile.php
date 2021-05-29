@@ -137,116 +137,42 @@
                 <div class="content-wrapper">
                     <div class="page-header">
                         <h3 class="page-title">
-                            Data Pemain
+                            Profile
                         </h3>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 grid-margin stretch-card">
+                        <div class="col-sm-6 mx-auto">
                             <div class="card">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <h4 class="card-title">
-                                                <i class="fas fa-list"></i>
-                                                Daftar Data Pemain
-                                            </h4>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <button type="button" class="btn btn-primary btn-fw ml-2"><i
-                                                    class="fa fa-plus"></i> Tambah Data</button>
-                                        </div>
-                                    </div>
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead>
-                                                <tr>
-                                                    <th width="5px">No</th>
-                                                    <th>Nama Pemain</th>
-                                                    <th>Alamat</th>
-                                                    <th>Status</th>
-                                                    <th>#</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>1</td>
-                                                    <td>Einstin</td>
-                                                    <td>Jl. Kawi 1, Wonotingal, Kec. Candisari, Kota Semarang, Jawa
-                                                        Tengah 50252</td>
-                                                    <th><label class="badge badge-warning badge-pill">Tidak
-                                                            Aktif</label></th>
-                                                    <td>
-                                                        <button type="button" class="btn btn-danger btn-sm btn-icon">
-                                                            <i class="fa fa-trash btn-icon-prepend"></i>
+                                <div class="card-body">
+                                    <!-- <div class="nav-profile-img text-center">
+                                        <img src="assets/img/avatar.png" alt="image" class="img-xs rounded-circle ml-3">
+                                        <span class="availability-status online"></span>
+                                        <p><a href="">Change</a></p>
+                                    </div> -->
 
-                                                        </button>
-                                                        <button type="button" class="btn btn-warning btn-sm btn-icon">
-                                                            <i class="fa fa-edit btn-icon-prepend"></i>
+                                    <img src="assets/img/avatar.png" class="rounded mx-auto d-block" alt="...">
+                                    <p class="text-center"><a href="">Change</a></p>
 
-                                                        </button>
-                                                        <button type="button" class="btn btn-success btn-sm btn-icon">
-                                                            <i class="fa fa-eye btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-info btn-sm btn-icon">
-                                                            <i class="fa fa-redo btn-icon-prepend"></i>
-
-                                                        </button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>2</td>
-                                                    <td>Meliodas</td>
-                                                    <td>Jl. Rinjani No.1, Bendungan, Kec. Gajahmungkur, Kota Semarang,
-                                                        Jawa Tengah 50231</td>
-                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
-                                                    <td>
-                                                        <button type="button" class="btn btn-danger btn-sm btn-icon">
-                                                            <i class="fa fa-trash btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-warning btn-sm btn-icon">
-                                                            <i class="fa fa-edit btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-success btn-sm btn-icon">
-                                                            <i class="fa fa-eye btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-info btn-sm btn-icon">
-                                                            <i class="fa fa-redo btn-icon-prepend"></i>
-
-                                                        </button>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>3</td>
-                                                    <td>Novita</td>
-                                                    <td>Jl. Sisingamangaraja No.21, Candi, Kec. Candisari, Kota
-                                                        Semarang, Jawa Tengah 50257</td>
-                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
-                                                    <td>
-                                                        <button type="button" class="btn btn-danger btn-sm btn-icon">
-                                                            <i class="fa fa-trash btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-warning btn-sm btn-icon">
-                                                            <i class="fa fa-edit btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-success btn-sm btn-icon">
-                                                            <i class="fa fa-eye btn-icon-prepend"></i>
-
-                                                        </button>
-                                                        <button type="button" class="btn btn-info btn-sm btn-icon">
-                                                            <i class="fa fa-redo btn-icon-prepend"></i>
-
-                                                        </button>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                    <h5 class="card-title">Nama</h5>
+                                    <a href="update/nama.php" class="btn btn-primary float-right">Edit</a>
+                                    <p class="card-text">Jane Robert</p>
+                                    <hr>
+                                    <h5 class="card-title">Username</h5>
+                                    <a href="update/username.php" class="btn btn-primary float-right">Edit</a>
+                                    <p class="card-text">janerobert</p>
+                                    <hr>
+                                    <h5 class="card-title">Email</h5>
+                                    <a href="update/email.php" class="btn btn-primary float-right">Edit</a>
+                                    <p class="card-text">janerobert@gmail.com</p>
+                                    <hr>
+                                    <h5 class="card-title">Level</h5>
+                                    <!-- <a href="" class="btn btn-primary float-right">Edit</a> -->
+                                    <p class="card-text">Admin</p>
+                                    <hr>
+                                    <h5 class="card-title">Password</h5>
+                                    <a href="update/password.php" class="btn btn-primary float-right">Edit</a>
+                                    <p class="card-text">********</p>
+                                    <hr>
                                 </div>
                             </div>
                         </div>
