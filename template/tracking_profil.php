@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dolanan Admin - Data Pemain</title>
+    <title>Dolanan Admin - Data Tracking Pemain</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/iconfonts/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -131,47 +131,96 @@
                 <div class="content-wrapper">
                     <div class="page-header">
                         <h3 class="page-title">
-                            Profile
+                            Data Tracking Pemain 
                         </h3>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 mx-auto">
+                        <div class="col-md-12 grid-margin stretch-card">
                             <div class="card">
-                                <div class="card-body">
-                                    <!-- <div class="nav-profile-img text-center">
-                                        <img src="assets/img/avatar.png" alt="image" class="img-xs rounded-circle ml-3">
-                                        <span class="availability-status online"></span>
-                                        <p><a href="">Change</a></p>
-                                    </div> -->
-
-                                    <img src="assets/img/avatar.png" class="rounded mx-auto d-block" alt="...">
-                                    <p class="text-center"><a href="">Change</a></p>
-
-                                    <h5 class="card-title">Nama</h5>
-                                    <a href="update/nama.php" class="btn btn-primary float-right">Edit</a>
-                                    <p class="card-text">Jane Robert</p>
-                                    <hr>
-                                    <h5 class="card-title">Username</h5>
-                                    <a href="update/username.php" class="btn btn-primary float-right">Edit</a>
-                                    <p class="card-text">janerobert</p>
-                                    <hr>
-                                    <h5 class="card-title">Email</h5>
-                                    <a href="update/email.php" class="btn btn-primary float-right">Edit</a>
-                                    <p class="card-text">janerobert@gmail.com</p>
-                                    <hr>
-                                    <h5 class="card-title">Level</h5>
-                                    <!-- <a href="" class="btn btn-primary float-right">Edit</a> -->
-                                    <p class="card-text">Admin</p>
-                                    <hr>
-                                    <h5 class="card-title">Password</h5>
-                                    <a href="update/password.php" class="btn btn-primary float-right">Edit</a>
-                                    <p class="card-text">********</p>
-                                    <hr>
+                                <div class="card-body d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h4 class="card-title">
+                                                <i class="fas fa-list"></i>
+                                                Daftar Data Tracking Pemain
+                                            </h4>
+                                        </div>
+                                        <div class="col-md-2">
+                                        <button type="button" class="btn btn-success btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fa fa-file-excel"></i> EXPORT EXCEL</button>
+                                        </div>
+                                        <div class="col-md-2">
+                                       
+                                            <button type="button" class="btn btn-danger btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fa fa-file-pdf"></i> EXPORT PDF</button>
+                                        </div>
+                                    </div>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th width="5px">No</th>
+                                                    <th>Nama Pemain</th>
+                                                    <th>Pertandingan</th>
+                                                    <th>Status</th>
+                                                    <th>#</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Einstin</td>
+                                                    <td>15</td>
+                                                    <th><label class="badge badge-warning badge-pill">Tidak
+                                                            Aktif</label></th>
+                                                    <td>
+                                                        <a href="detail_tracking_profil.php?nama=Einstin">
+                                                            <button type="button" class="btn btn-primary btn-sm btn-icon">
+                                                                <i class="fa fa-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                        </a>
+                                                       
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Meliodas</td>
+                                                    <td>10</td>
+                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                                                    <td>
+                                                        <a href="detail_tracking_profil.php?nama=Meliodas">
+                                                            <button type="button" class="btn btn-primary btn-sm btn-icon">
+                                                                <i class="fa fa-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                        </a>
+                                                        
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>Novita</td>
+                                                    <td>25</td>
+                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                                                    <td>
+                                                        <a href="detail_tracking_profil.php?nama=Novita">
+                                                            <button type="button" class="btn btn-primary btn-sm btn-icon">
+                                                                <i class="fa fa-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                        </a>
+                                                        
+                                                        
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Modal -->
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">

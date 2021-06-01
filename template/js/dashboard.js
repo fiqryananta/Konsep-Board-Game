@@ -8,7 +8,7 @@
         data: {
           labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
           datasets: [{
-              label: 'Delivered',
+              label: '2021',
               data: [260, 380, 230, 400, 780, 530, 340, 200, 400, 650, 780, 500],
               backgroundColor: '#392c70'
             }
@@ -202,10 +202,10 @@
     
         // These labels appear in the legend and in the tooltips when hovering different arcs
         labels: [
-          'Mail order sales',
-          'Instore sales',
-          'Download sales',
-          'Sales return'
+          'Fast Fun Blokus',
+          'Wooden Latches Board ',
+          'Splendor ',
+          'Ticket to Ride '
         ]
       };
       var dailySalesChartOptions = {
