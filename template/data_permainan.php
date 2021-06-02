@@ -21,111 +21,106 @@
 
 <body class="horizontal-menu">
     <div class="container-scroller">
-        <nav class="navbar horizontal-layout-navbar fixed-top navbar-expand-lg">
-        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-            <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo-removebg-preview-1.png" alt="logo"/></a>
-            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-removebg-preview-1.png" alt="logo"/></a>                    
-        </div>
-        <div class="navbar-menu-wrapper d-flex flex-grow">
-            <ul class="navbar-nav navbar-nav-left collapse navbar-collapse" id="horizontal-top-example">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
-                Master Data
-                </a>
-                <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
-                <a class="dropdown-item" href="data_pemain.php">
-                    <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
-                    Data Pemain
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="data_permainan.php">
-                    <i class="mdi mdi-database mr-2 text-primary"></i>
-                    Data Permainan
-                </a>
-                <div class="dropdown-divider"></div>                
-                <a class="dropdown-item" href="data_user.php">
-                    <i class="mdi mdi-cellphone-android mr-2 text-primary"></i>
-                    Data User
-                </a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
-                Pertandingan
-                </a>
-                <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
-                <a class="dropdown-item" href="jadwal_permainan.php">
-                    <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
-                    Jadwal Permainan
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="tracking_profil.php">
-                    <i class="mdi mdi-database mr-2 text-primary"></i>
-                    Tracking Profil
-                </a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
-                Laporan
-                </a>
-                <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
-                <a class="dropdown-item" href="#">
-                    <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
-                    Laporan Jadwal Permainan
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                    <i class="mdi mdi-database mr-2 text-primary"></i>
-                    Laporan Pertandingan
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">
-                    <i class="mdi mdi-database mr-2 text-primary"></i>
-                    Laporan Tracking Pemain
-                </a>
-                </div>
-            </li>
-            </ul>
-            <ul class="navbar-nav navbar-nav-right">
-            <li class="nav-item nav-profile">
-                <a href="profile.php" class="nav-link">
-                <div class="nav-profile-text">
-                    Jane Robert
-                </div>
-                <div class="nav-profile-img">
-                    <img src="assets/img/avatar.png" alt="image" class="img-xs rounded-circle ml-3">
-                    <span class="availability-status online"></span>             
-                </div>
-                </a>
-            </li>
-            <!-- <li class="nav-item nav-search">
-                <div class="nav-link">
-                <div class="search-field d-none d-md-block">
-                    <form class="d-flex align-items-stretch h-100" action="#">
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text">
-                            <i class="fas fa-search"></i>                                          
-                            </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="Search your projects ...">
+    <nav class="navbar horizontal-layout-navbar fixed-top navbar-expand-lg">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
+        <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo-removebg-preview-1.png" alt="logo"/></a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-removebg-preview-1.png" alt="logo"/></a>                    
+      </div>
+      <div class="navbar-menu-wrapper d-flex flex-grow">
+        <ul class="navbar-nav navbar-nav-left collapse navbar-collapse" id="horizontal-top-example">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
+              Master Data
+            </a>
+            <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
+              <a class="dropdown-item" href="data_pemain.php">
+                <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
+                Data Pemain
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="data_permainan.php">
+                <i class="mdi mdi-database mr-2 text-primary"></i>
+                Data Permainan
+              </a>
+              <div class="dropdown-divider"></div>                
+              <a class="dropdown-item" href="data_user.php">
+                <i class="mdi mdi-cellphone-android mr-2 text-primary"></i>
+                Data User
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
+              Pertandingan
+            </a>
+            <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
+              <a class="dropdown-item" href="jadwal_permainan.php">
+                <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
+                Jadwal Permainan
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="tracking_profil.php">
+                <i class="mdi mdi-database mr-2 text-primary"></i>
+                Tracking Profil
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="projects-dropdown" data-toggle="dropdown" aria-expanded="false">
+              Laporan
+            </a>
+            <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
+              <a class="dropdown-item" href="laporan_jadwal.php">
+                <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
+                Laporan Jadwal Permainan
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="laporan_pertandingan.php">
+                <i class="mdi mdi-database mr-2 text-primary"></i>
+                Laporan Pertandingan
+              </a>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item nav-profile">
+            <a href="profile.php" class="nav-link">
+              <div class="nav-profile-text">
+                Jane Robert
+              </div>
+              <div class="nav-profile-img">
+                <img src="assets/img/avatar.png" alt="image" class="img-xs rounded-circle ml-3">
+                <span class="availability-status online"></span>             
+              </div>
+            </a>
+          </li>
+          <!-- <li class="nav-item nav-search">
+            <div class="nav-link">
+              <div class="search-field d-none d-md-block">
+                <form class="d-flex align-items-stretch h-100" action="#">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fas fa-search"></i>                                          
+                        </span>
                     </div>
-                    </form>
-                </div>
-                </div>
-            </li> -->
-            <li class="nav-item">
-                <a href="login.php" class="nav-link">
-                <i class="fas fa-power-off font-weight-bold icon-sm"></i>
-                </a>
-            </li>
-            </ul>
-            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center ml-auto" type="button" data-toggle="collapse" data-target="#horizontal-top-example">
-            <span class="fa fa-bars"></span>
-            </button>
-        </div>
-        </nav>
+                    <input type="text" class="form-control" placeholder="Search your projects ...">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </li> -->
+          <li class="nav-item">
+            <a href="login.php" class="nav-link">
+              <i class="fas fa-power-off font-weight-bold icon-sm"></i>
+            </a>
+          </li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center ml-auto" type="button" data-toggle="collapse" data-target="#horizontal-top-example">
+          <span class="fa fa-bars"></span>
+        </button>
+      </div>
+    </nav>
         <div class="container-fluid page-body-wrapper">
             <div class="main-panel">
                 <div class="content-wrapper">
@@ -151,7 +146,7 @@
                                         </div>
                                     </div>
                                     <div class="table-responsive">
-                                        <table class="table">
+                                        <table class="table order-listing">
                                             <thead>
                                                 <tr>
                                                     <th width="5px">No</th>
@@ -310,6 +305,7 @@
     <!-- endinject -->
     <!-- Custom js for this page-->
     <script src="js/dashboard.js"></script>
+    <script src="js/data-table.js"></script>
     <!-- End custom js for this page-->
 </body>
 

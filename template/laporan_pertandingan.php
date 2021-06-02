@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dolanan Admin - Detail Tracking Pemain</title>
+    <title>Dolanan Admin - Data Tracking Pemain</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/iconfonts/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -126,98 +126,40 @@
                 <div class="content-wrapper">
                     <div class="page-header">
                         <h3 class="page-title">
-                            Detail Tracking Pemain 
+                            Data Pertandingan 
                         </h3>
                     </div>
                     <div class="row">
                         <div class="col-md-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body d-flex flex-column">
+                                  <h4 class="card-title">
+                                        <i class="fas fa-calendar"></i>
+                                        Laporan Pertandingan
+                                    </h4>
                                     <div class="row">
-                                        <div class="col-md-1">
-                                            <img src="assets/img/avatar.png" alt="image" class="img-lg rounded-circle d-flex" alt="">
+                                        <div class="col-md-2">
+                                            <div id="" class="input-group date datepicker datepicker-popup">
+                                                <input type="text" class="form-control">
+                                                    <span class="input-group-addon input-group-append border-left">
+                                                        <span class="far fa-calendar input-group-text"></span>
+                                                    </span>
+                                            </div>
                                         </div>
-                                        <div class="col-md-1 mr-3"><br>
-                                            <label for="">Ahmad</label><br>
-                                            <label class="badge badge-info badge-pill">Pemain Aktif</label>
-                                        </div>
-                                        <div class="col-md-2 ml-5 mt-3 mr-5">
-                                            <p>
-                                                <i class="icon-sm fas fa-arrow-circle-up mr-2"></i>
-                                                Menang Pertandingan
-                                            </p>
-                                            <h3>345</h3>
-                                        </div>
-                                        <div class="col-md-2 ml-5 mt-3 mr-5">
-                                            <p>
-                                                <i class="icon-sm fas fa-arrow-circle-down mr-2"></i>
-                                                Kalah Pertandingan
-                                            </p>
-                                            <h3>50</h3>
-                                        </div>
-                                        <div class="col-md-3 mt-3">
-                                            <div class="card card-inverse-success" id="context-menu-simple">
-                                                <div class="card-body">
-                                                <p class="card-text">
-                                                    Ahmad Pemain <b>Terbaik Bulan Ini.</b></p>
-                                                </div>
-                                            </div>    
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h4 class="card-title">
-                                                <i class="fas fa-list"></i>
-                                                Grafik Tracking Pertandingan
-                                            </h4>
-                                            <canvas id="orders-chart"></canvas>
-                                            <div id="orders-chart-legend" class="orders-chart-legend"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h4 class="card-title">
-                                                <i class="fas fa-list"></i>
-                                                Grafik Tracking Permainan
-                                            </h4>
-                                            <canvas id="daily-sales-chart" class="mt-3 mb-3 mb-md-0 chartjs-render-monitor"></canvas>
-                                            <div id="daily-sales-chart-legend" class="daily-sales-chart-legend pt-4 border-top"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div class="col-md-12 grid-margin stretch-card">
-                            <div class="card">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <h4 class="card-title">
-                                                <i class="fas fa-list"></i>
-                                                Daftar Data Tracking Pemain
-                                            </h4>
+                                        <label for="" class="mt-3">-</label>
+                                        <div class="col-md-2">
+                                            <div id="" class="input-group date datepicker datepicker-popup">
+                                                <input type="text" class="form-control">
+                                                    <span class="input-group-addon input-group-append border-left">
+                                                        <span class="far fa-calendar input-group-text"></span>
+                                                    </span>
+                                            </div>
                                         </div>
                                         <div class="col-md-2">
-                                        <button type="button" class="btn btn-success btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="fa fa-file-excel"></i> EXPORT EXCEL</button>
+                                            <button type="button" class="btn mt-2 btn-success btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-file-excel"></i> EXPORT EXCEL</button>
                                         </div>
-                                        <div class="col-md-2">
-                                       
-                                            <button type="button" class="btn btn-danger btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i
-                                                    class="fa fa-file-pdf"></i> EXPORT PDF</button>
+                                        <div class="col-md-2 mr-5">
+                                            <button type="button" class="btn mt-2 btn-danger btn-fw ml-2" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-file-pdf"></i> EXPORT PDF</button>
                                         </div>
                                     </div>
                                     <div class="table-responsive">
@@ -225,33 +167,46 @@
                                             <thead>
                                                 <tr>
                                                     <th width="5px">No</th>
-                                                    <th>Permainan</th>
+                                                    <th>Nama Pemain</th>
                                                     <th>Pertandingan</th>
                                                     <th>Status</th>
-                                                    
+                                                    <th>Terakhir Pertandingan</th>
+                                                    <th>#</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>Fast Fun Blokus </td>
+                                                    <td>Einstin</td>
                                                     <td>15</td>
-                                                    <th><label class="badge badge-warning badge-pill">Kalah</label></th>
-                                                   
+                                                    <th><label class="badge badge-warning badge-pill">Tidak
+                                                            Aktif</label></th>
+                                                    <td>
+                                                        12 Mei 2021
+                                                       
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>Wooden Latches Board </td>
+                                                    <td>Meliodas</td>
                                                     <td>10</td>
-                                                    <td><label class="badge badge-info badge-pill">Menang</label></td>
-                                                   
+                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                                                    <td>
+                                                      17 Mei 2021
+                                                        
+                                                        
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Splendor </td>
+                                                    <td>Novita</td>
                                                     <td>25</td>
-                                                    <td><label class="badge badge-info badge-pill">Menang</label></td>
-                                                    
+                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
+                                                    <td>
+                                                      20 Mei 2021
+                                                        
+                                                        
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>

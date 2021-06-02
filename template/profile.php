@@ -70,19 +70,14 @@
               Laporan
             </a>
             <div class="dropdown-menu navbar-dropdown" aria-labelledby="projects-dropdown">
-              <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="laporan_jadwal.php">
                 <i class="mdi mdi-laptop-mac mr-2 text-primary"></i>
                 Laporan Jadwal Permainan
               </a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
+              <a class="dropdown-item" href="laporan_pertandingan.php">
                 <i class="mdi mdi-database mr-2 text-primary"></i>
                 Laporan Pertandingan
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">
-                <i class="mdi mdi-database mr-2 text-primary"></i>
-                Laporan Tracking Pemain
               </a>
             </div>
           </li>
