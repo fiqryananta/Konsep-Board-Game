@@ -16,7 +16,7 @@
             <img src="assets/img/logo-removebg-preview.png">
         </div>
         <div class="login-content">
-            <form action="index.html">
+            <form>
                 <img src="assets/img/avatar.png">
                 <h2 class="title">Login</h2>
                 <div class="input-div one">
@@ -38,12 +38,29 @@
                     </div>
                 </div>
                 <a href="#">Forgot Password?</a>
-                <input type="submit" class="btn" value="Login">
+                <input type="button" onclick="success()" class="btn" value="Login">
                 <a style="text-align:center;" href="registrasi.php">Registration Now</a>
             </form>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+    function success() {
+        swal({
+                title: "Success!",
+                text: "Berhasil Login",
+                icon: "success"
+            })
+            .then(function() {
+                document.location = 'index.html';
+            });
+    }
+    </script>
 </body>
 
 </html>
