@@ -226,9 +226,12 @@
                                         </div>
                                         <div class="col-md-2">
 
-                                            <button type="button" class="btn btn-danger btn-fw ml-2" data-toggle="modal"
-                                                data-target="#exampleModal"><i class="fa fa-file-pdf"></i> EXPORT
-                                                PDF</button>
+                                            <a href="detail_tracking_profil_pdf.php" target="_blank">
+                                                <button type="button" class="btn btn-danger btn-fw ml-2"
+                                                    data-toggle="modal" data-target="#exampleModal"><i
+                                                        class="fa fa-file-pdf"></i> EXPORT
+                                                    PDF</button>
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="table-responsive">

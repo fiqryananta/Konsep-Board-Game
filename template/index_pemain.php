@@ -23,22 +23,21 @@
     <div class="container-scroller">
         <nav class="navbar horizontal-layout-navbar fixed-top navbar-expand-lg">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
-                <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo-removebg-preview-1.png"
+                <a class="navbar-brand brand-logo" href="index_pemain.php"><img src="images/logo-removebg-preview-1.png"
                         alt="logo" /></a>
-                <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-removebg-preview-1.png"
-                        alt="logo" /></a>
+                <a class="navbar-brand brand-logo-mini" href="index_pemain.php"><img
+                        src="images/logo-removebg-preview-1.png" alt="logo" /></a>
             </div>
             <div class="navbar-menu-wrapper d-flex flex-grow">
                 <ul class="navbar-nav navbar-nav-left collapse navbar-collapse" id="horizontal-top-example">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="projects-dropdown" data-toggle="dropdown"
-                            aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link " href="pertandingan.php" aria-expanded="false" style="font-size: medium;">
                             Pertandingan
                         </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="projects-dropdown" data-toggle="dropdown"
-                            aria-expanded="false">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="detail_tracking_profil_pemain.php" aria-expanded="false"
+                            style="font-size: medium;">
                             Tracking
                         </a>
                     </li>
@@ -47,7 +46,7 @@
                     <li class="nav-item nav-profile">
                         <a href="profile.php" class="nav-link">
                             <div class="nav-profile-text">
-                                Jane Robert
+                                Ahmad
                             </div>
                             <div class="nav-profile-img">
                                 <img src="assets/img/avatar.png" alt="image" class="img-xs rounded-circle ml-3">

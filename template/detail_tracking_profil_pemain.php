@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Beranda</title>
+    <title>Dolanan Admin - Detail Tracking Pemain</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="vendors/iconfonts/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -54,6 +54,22 @@
                             </div>
                         </a>
                     </li>
+                    <!-- <li class="nav-item nav-search">
+            <div class="nav-link">
+              <div class="search-field d-none d-md-block">
+                <form class="d-flex align-items-stretch h-100" action="#">
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fas fa-search"></i>                                          
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search your projects ...">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </li> -->
                     <li class="nav-item">
                         <a href="login.php" class="nav-link">
                             <i class="fas fa-power-off font-weight-bold icon-sm"></i>
@@ -69,6 +85,11 @@
         <div class="container-fluid page-body-wrapper">
             <div class="main-panel">
                 <div class="content-wrapper">
+                    <div class="page-header">
+                        <h3 class="page-title">
+                            Detail Tracking Pemain
+                        </h3>
+                    </div>
                     <div class="row">
                         <div class="col-md-12 grid-margin stretch-card">
                             <div class="card">
@@ -97,73 +118,109 @@
                                             <h3>50</h3>
                                         </div>
                                         <div class="col-md-3 mt-3">
-                                            <button class="btn btn-success mt-3">Mulai</button>
+                                            <div class="card card-inverse-success" id="context-menu-simple">
+                                                <div class="card-body">
+                                                    <p class="card-text">
+                                                        Ahmad Pemain <b>Terbaik Bulan Ini.</b></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4 class="card-title">
+                                                <i class="fas fa-list"></i>
+                                                Grafik Tracking Pertandingan
+                                            </h4>
+                                            <canvas id="orders-chart"></canvas>
+                                            <div id="orders-chart-legend" class="orders-chart-legend"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 grid-margin stretch-card">
+                            <div class="card">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h4 class="card-title">
+                                                <i class="fas fa-list"></i>
+                                                Grafik Tracking Permainan
+                                            </h4>
+                                            <canvas id="daily-sales-chart"
+                                                class="mt-3 mb-3 mb-md-0 chartjs-render-monitor"></canvas>
+                                            <div id="daily-sales-chart-legend"
+                                                class="daily-sales-chart-legend pt-4 border-top"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="page-header">
-                        <h3 class="page-title">
-                            Data Pertandingan
-                        </h3>
-                    </div>
-                    <div class="row">
                         <div class="col-md-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body d-flex flex-column">
-                                    <h4 class="card-title">
-                                        <i class="fas fa-calendar"></i>
-                                        Pertandingan Tahun 2021
-                                    </h4>
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <h4 class="card-title">
+                                                <i class="fas fa-list"></i>
+                                                Daftar Data Tracking Pemain
+                                            </h4>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <button type="button" class="btn btn-success btn-fw ml-2"
+                                                data-toggle="modal" data-target="#exampleModal"><i
+                                                    class="fa fa-file-excel"></i> EXPORT EXCEL</button>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="detail_tracking_profil_pdf.php" target="_blank">
+                                                <button type="button" class="btn btn-danger btn-fw ml-2"
+                                                    data-toggle="modal" data-target="#exampleModal"><i
+                                                        class="fa fa-file-pdf"></i> EXPORT
+                                                    PDF</button>
+                                            </a>
 
+                                        </div>
+                                    </div>
                                     <div class="table-responsive">
                                         <table class="table order-listing">
                                             <thead>
                                                 <tr>
                                                     <th width="5px">No</th>
-                                                    <th>Nama Pemain</th>
+                                                    <th>Permainan</th>
                                                     <th>Pertandingan</th>
                                                     <th>Status</th>
-                                                    <th>Terakhir Pertandingan</th>
+
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>Einstin</td>
+                                                    <td>Fast Fun Blokus </td>
                                                     <td>15</td>
-                                                    <th><label class="badge badge-warning badge-pill">Tidak
-                                                            Aktif</label></th>
-                                                    <td>
-                                                        12 Mei 2021
+                                                    <th><label class="badge badge-warning badge-pill">Kalah</label></th>
 
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>Meliodas</td>
+                                                    <td>Wooden Latches Board </td>
                                                     <td>10</td>
-                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
-                                                    <td>
-                                                        17 Mei 2021
+                                                    <td><label class="badge badge-info badge-pill">Menang</label></td>
 
-
-                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>Novita</td>
+                                                    <td>Splendor </td>
                                                     <td>25</td>
-                                                    <td><label class="badge badge-info badge-pill">Aktif</label></td>
-                                                    <td>
-                                                        20 Mei 2021
+                                                    <td><label class="badge badge-info badge-pill">Menang</label></td>
 
-
-                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -173,6 +230,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Modal -->
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
